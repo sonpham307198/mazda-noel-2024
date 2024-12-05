@@ -8,7 +8,7 @@ for(var i = 0; i<50; i++){
     let widthSnow = Math.floor(Math.random() * 25)+10;
     let timeSnow = Math.floor((Math.random() * 5) + 5);
     let blurSnow = Math.floor(Math.random() * 10); blurSnow=blurSnow/3;
-  let id=Math.floor(Math.random() * 10);
+  let id=Math.floor(Math.random() * 3);
     console.log(leftSnow);
     let div = document.createElement('div');
     div.classList.add('mmis-snow-'+id);
